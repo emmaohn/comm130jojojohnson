@@ -7,7 +7,6 @@
   <title>Elliot Ulm: a graphic design case study</title>
   <meta name="description" content="Elliot is an instagramer and youtuber popular for his graphic design. This is a case study into how he uses some of the basic concepts of design.">
   <link rel="stylesheet" href="styles.css">
-
 </head>
 <body>
   <header class="flex header">
@@ -94,6 +93,12 @@
       <p>If you'd like to see more from Elliot, you can find him on <a class="underline" href="https://www.instagram.com/elliotisacoolguy/">Instagram</a>, or go on a design journey with him on <a class="underline" href="https://www.youtube.com/@welliot">YouTube</a></p>
     </article>
   </main>
-  <footer class="center">&copy;Jojo Johnson 2024</footer>
+  <footer class="center">&copy;Jojo Johnson <span id="year"></span></footer>
+  <script>
+    let span = document.getElementById('year');
+    let today = new Date();
+    let year = today.getFullYear();
+    span.textContent = year;
+  </script>
 </body>
 </html>

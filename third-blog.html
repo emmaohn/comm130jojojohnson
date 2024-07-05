@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jojo's blog</title>
+  <meta name="description" content="description">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="flex header">
+    <div>
+      <a href="index.html" class="bold">Jojo Johnson</a>
+      <p>Visual portfolio for comm130</p>
+    </div>
+    <a class="underline bold" href="https://www.pinterest.com/emmaohn00/">pinterest</a>
+  </header>
+  <main>
+    <article class="blog">
+      <h1 class="bold">Ad Campaign Reverse Engineer: What Makes an Ad?</h1>
+      <p>Advertisement is the form where we see graphic design most often. In our world that is jam packed with advertisements, have you ever wondered what goes into making all those ads you see? What makes you want to look at an ad and skip over another? A lot of it has to do with design.</p>
+      <img class="max" src="/images/third-blog/originalad.jpg" alt="Ad for Toyota Crown Signia">
+      <p class="caption">Ad for the Toyota Crown Signia</p>
+      <p>There are a few things about effective design that will keep an observer's attention, and most importantly to advertisers, make you feel a certain way about how their product is presented.</p>
+      <p>This ad from Toyota is showcasing the Crown Signia. With on-demand four-wheel drive, up to 39 miles per gallon, and seats that can lay out flat, Toyota wants to advertise to those who are looking for adventure, and to get outdoors.</p>
+      <p>Toyota achieves this by putting the car in the outdoors in a landscape that does not look easily traversable by car--a feature that would be desired by outdoor adventurers. I also liked that they used the postcard style, creating interest to people who like the aesthetic of travelling often.</p>
+
+      <h2 class="bold">Design overview</h2>
+      <div class="flex max">
+        <img src="/images/third-blog/drawover11.png" alt="Design drawover">
+        <img src="/images/third-blog/drawover12.png" alt="Typography drawover">
+        <img src="/images/third-blog/drawover13.png" alt="Color drawover">
+      </div>
+      <p class="caption">Drawovers for original ad: design, typography, and color</p>
+      <p>In the design drawover we can see there is alignment of the car to the center of Advertisement to draw the eye to the car. There is also a lot of contrast introducing the typographic elements into the natural scene which takes a landscape photo and makes it feel more like a postcard than a photo because of the conceptual contrast.</p>
+      <p>In the typography drawover we can note that there is very little stroke variation with the exception of certain stems like in the "Y" the "A" and the "N," and the apertures are very elongated. The font also has a 3d style, and a few very slight slants.</p>
+      <p>In the color drawover, we can see a few areas hightlighted that make up the main color palette. The color palette is bright and earthy, yellows, browns, and blues which makes the white car stand out in the natural environment.</p>
+
+      <h2 class="bold">Reverse engineering</h2>
+      <img class="max" src="/images/third-blog/newad.png" alt="Ad for Toyota Four Runner">
+      <p class="caption">Reverse engineered ad for the Toyota Four Runner</p>
+      <p>I reverse engineered the original ad, and came up with this ad for the <a class="underline" href="https://unsplash.com/photos/white-suv-on-beach-jxN4MDeciIo">Toyota Four Runner</a></p>
+      <div class="flex max">
+        <img src="/images/third-blog/drawover21.png" alt="Design drawover">
+        <img src="/images/third-blog/drawover22.png" alt="Typography drawover">
+        <img src="/images/third-blog/drawover23.png" alt="Color drawover">
+      </div>
+      <p class="caption">Drawovers for new ad: design, typography, and color</p>
+      <p>In the design drawover there are indicators to show the car is in the center of the design, and since this car takes up more of the free space of the ad, I wanted to align the text elements to the edges of the car as well. The text elements in this design also contrast with their context to make the elements pop like a postcard.</p>
+      <p>Shown in the typography drawover is the similarities in the font that I chose to use on my design. It has very little stroke variation, save certain stems like the "A," "Y," and "N." The only thing I would have liked to match more to the original font was that the original font has squared edges whereas the font I found has rounded edges. I also matched the 3d style and the slants found in the original ad typography.</p>
+      <p>In the color drawover we see that the color palette of this images has the same vibe of bright, earthy tones but more i nthe realm of browns, yellows, and grays. This ad also displays a white car as the subject, which makes it stand out in its environment.</p>
+
+      <h2 class="bold">Conclusion</h2>
+      <p>Some of the design pricinples covered in this article are proximity, alignment, contrast, typography, and color theory.</p>
+      <p>Proximity, alignment, and contrast are all things that make an ad come together to look professional. If elements are unaligned, elements that should be related are too far apart or vice versa, or if your added elements unitentionally blend into the background and get lost, all of these things communicate to a viewer an unprofessional feeling.</p>
+      <p>The reason that the emotions an ad gives to a customer are so important to companies is that if someone feels an ad appears sloppy, rushed, unprofessional, misdirected, or many other attributes like this, the customer will associate those feelings with the customer, and that is a lasting impression that is hard to undo. Good advertisement is most important to leave a good impression with a viewer and create positivity with a brand while also showing off a product.</p>
+      <p>Color and typography are also very important because because they contribute to the emotions created by an ad. Imagine the images of landscapes in these ads looked dark or rainy or miserable--would you feel the same positive energy created by the thought of a fun vacation? Or if the font looked corporate and stiff--would you feel the company was still trying to advertise to you if you were an outdoorsy individual who loves to travel?</p>
+      <p>I tried to capture the professional essence of the ads in this recreation, and show how important it is that there are good principles of design and typography and color in the design as well, keeping a bright, optimistic, outdoorsy feeling to the ad.</p>
+    </article>
+  </main>
+  <footer class="center">&copy;Jojo Johnson <span id="year"></span></footer>
+  <script>
+    let span = document.getElementById('year');
+    let today = new Date();
+    let year = today.getFullYear();
+    span.textContent = year;
+  </script>
+</body>
+</html>

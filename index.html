@@ -27,7 +27,6 @@
       </div>
     </a>
 
-    <!-- place next blog here -->
     <a href="second-blog.html">
       <div class="blog-card">
         <img src="images/second-blog-tn.jpeg" alt="Graphic design by Gabriele Wechner">
@@ -37,7 +36,23 @@
         </div>
       </div>
     </a>
+
+    <a href="third-blog.html">
+      <div class="blog-card">
+        <img src="/images/third-blog-tn.jpg" alt="Ad for Toyota Crown Signia">
+        <div>
+          <p class="bold">Ad Campaign Reverse Engineer: What Makes an Ad?</p>
+          <p>We see ads everywhere, all over, all day, every day. What makes an ad? What makes an ad professional? Why are ads important to a company? Dissect the parts of an ad and reverse engineer it with me!</p>
+        </div>
+      </div>
+    </a>
   </main>
-  <footer class="bold center">&copy;Jojo Johnson 2024</footer>
+  <footer class="center">&copy;Jojo Johnson <span id="year"></span></footer>
+  <script>
+    let span = document.getElementById('year');
+    let today = new Date();
+    let year = today.getFullYear();
+    span.textContent = year;
+  </script>
 </body>
 </html>

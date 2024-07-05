@@ -27,19 +27,19 @@
       </a>
       <p>This is a magazine mockup from German graphic designer Gabriele Wechner. In this she makes good use of contrasting typefaces and photographic principles.</p>
 
-      <h2>Type</h2>
+      <h2 class="bold">Type</h2>
       <img class="max" src="images/second-blog/drawover1.png" alt="Drawover of magazine mockup">
       <p class="caption">Contrasting typefaces in design</p>
       <p>The two featured fonts in this design contrast from each other in many ways. The bold title font is a sharp sans serif font with elongated apertures, and very little stroke width variation. This contrasts with the body font that has serifs, highly varied stroke widths, and wide, circular apertures.</p>
       <p>The type also contrasts visually through the orientation and proxmity of the text blocks, as well as the size and weight of the fonts.</p>
 
-      <h2>Photo</h2>
+      <h2 class="bold">Photo</h2>
       <img class="max" src="images/second-blog/drawover2.png" alt="Drawover of magazine mockup">
       <p class="caption">The rule of thirds in photography</p>
       <p>The photo displays a pricinple called the rule of thirds where the subject of the picture is in the left or eight third of the composition.</p>
       <p>In this photo, we can see the subject is in the lower right hand thrid of the photo. This creates a intentional focal point on the subject in the third, and generally leads to a more compelling and visually interesting photo.</p>
 
-      <h2>Recreation</h2>
+      <h2 class="bold">Recreation</h2>
       <div class="flex max">
         <img src="images/second-blog/pic1.jpeg" alt="Picture of a girl in the lower right third">
         <img src="images/second-blog/pic2.jpeg" alt="Picture of a girl in the lower right third">
@@ -49,12 +49,18 @@
       <p>In these three photographs, I wanted to recreate the subject of a person in the lower right third, so you could replace the image in the spread with any of the recreations and have the same focal.</p>
       <p>I didn't take these with the rule of thrids in mind, but cropping them to put the subject in the third really elevated the composition of the photos without that much work!</p>
 
-      <h2>Conclusion</h2>
+      <h2 class="bold">Conclusion</h2>
       <p>Typography is something more than just words on a page. The style of the font indicates the personality--bold, brash, cutesy, fun, serious, silly--and can convey to you the tone of the type before you even read the words the font is attached to.</p>
       <p>Photography is more than just picking up a camera and taking a picture. Composition can take a photo from a nice picture you took on a walk to a composition that evoked emotion. The rule of thirds that we observed in this article is just one way that we can add intrigue to a photo. We can also focus on things that have good leading line, depth of field, or so much more.</p>
-      <p>You can read more from Gabriele Wechner <a href="https://etherapie.at/portfolio/magazine-spread/">here</a></p>
+      <p>You can read more from Gabriele Wechner <a class="underline" href="https://etherapie.at/portfolio/magazine-spread/">here</a></p>
     </article>
   </main>
-  <footer class="center">&copy;Jojo Johnson 2024</footer>
+  <footer class="center">&copy;Jojo Johnson <span id="year"></span></footer>
+  <script>
+    let span = document.getElementById('year');
+    let today = new Date();
+    let year = today.getFullYear();
+    span.textContent = year;
+  </script>
 </body>
 </html>

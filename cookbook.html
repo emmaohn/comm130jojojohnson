@@ -33,6 +33,12 @@
       <p></p>
     </article>
   </main>
-  <footer class="center">&copy;Jojo Johnson 2024</footer>
+  <footer class="center">&copy;Jojo Johnson <span id="year"></span></footer>
+  <script>
+    let span = document.getElementById('year');
+    let today = new Date();
+    let year = today.getFullYear();
+    span.textContent = year;
+  </script>
 </body>
 </html>
